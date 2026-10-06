@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-bot-justificaciones",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para justificaciones de ausencia - Prof. Alejandro Castañeda",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "justificaciones",
+    "utcj"
+  ],
+  "author": "M.N. Alejandro Castañeda Sáenz",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.70.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
